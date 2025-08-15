@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from "./Welcome.jsx";
 import Greeting from "./Student.js";
+import UserForm from "./userstatus.js";
+import Counter from "./components/counter.js";
 function App() {
   return (
     <div className="App">
@@ -19,8 +20,9 @@ function App() {
         >
           Learn React
         </a>
+        <UserForm />
+        <Counter />
       </header>
-      <Welcome/>
     </div>
   );
 }
